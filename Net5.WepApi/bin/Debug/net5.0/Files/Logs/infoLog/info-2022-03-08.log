@@ -1,0 +1,36 @@
+2022-03-08 10:04:21.9439||INFO|Hr.Contract.BackgroundTask.ContractDraftSend|2022/3/8 上午 10:04:21 Job開始運行...... 
+2022-03-08 10:04:31.7876||INFO|Hr.Contract.BackgroundTask.ContractDraftSend|KWY31的合同草稿发起成功！ 
+2022-03-08 10:04:32.5076||INFO|Hr.Contract.BackgroundTask.ContractDraftSend|KUU62的合同草稿发起失敗：签署方校验:接收人校验:INVALID PARAM,手机号格式错误 contact:1582328343 
+2022-03-08 10:04:37.7749||INFO|Hr.Contract.BackgroundTask.ContractDraftSend|KUQ56的合同草稿发起成功！ 
+2022-03-08 10:04:43.2495||INFO|Hr.Contract.BackgroundTask.ContractDraftSend|KXB00的合同草稿发起成功！ 
+2022-03-08 10:04:48.7322||INFO|Hr.Contract.BackgroundTask.ContractDraftSend|KXB16的合同草稿发起成功！ 
+2022-03-08 10:04:54.0072||INFO|Hr.Contract.BackgroundTask.ContractDraftSend|KXB13的合同草稿发起成功！ 
+2022-03-08 10:04:59.9166||INFO|Hr.Contract.BackgroundTask.ContractDraftSend|KXB12的合同草稿发起成功！ 
+2022-03-08 10:05:05.2001||INFO|Hr.Contract.BackgroundTask.ContractDraftSend|KXB11的合同草稿发起成功！ 
+2022-03-08 10:05:09.8942||INFO|Hr.Contract.BackgroundTask.ContractDraftSend|KXB14的合同草稿发起成功！ 
+2022-03-08 10:05:15.4651||INFO|Hr.Contract.BackgroundTask.ContractDraftSend|KXB07的合同草稿发起成功！ 
+2022-03-08 10:05:20.2587||INFO|Hr.Contract.BackgroundTask.ContractDraftSend|KXB06的合同草稿发起成功！ 
+2022-03-08 10:05:24.8546||INFO|Hr.Contract.BackgroundTask.ContractDraftSend|KXB04的合同草稿发起成功！ 
+2022-03-08 10:05:30.1056||INFO|Hr.Contract.BackgroundTask.ContractDraftSend|KXA99的合同草稿发起成功！ 
+2022-03-08 10:05:34.9090||INFO|Hr.Contract.BackgroundTask.ContractDraftSend|KXB18的合同草稿发起成功！ 
+2022-03-08 10:05:39.9153||INFO|Hr.Contract.BackgroundTask.ContractDraftSend|KXB17的合同草稿发起成功！ 
+2022-03-08 10:05:44.5164||INFO|Hr.Contract.BackgroundTask.ContractDraftSend|KXA95的合同草稿发起成功！ 
+2022-03-08 10:05:49.2663||INFO|Hr.Contract.BackgroundTask.ContractDraftSend|K6082的合同草稿发起成功！ 
+2022-03-08 10:05:53.9407||INFO|Hr.Contract.BackgroundTask.ContractDraftSend|KX518的合同草稿发起成功！ 
+2022-03-08 10:05:58.6128||INFO|Hr.Contract.BackgroundTask.ContractDraftSend|KXA94的合同草稿发起成功！ 
+2022-03-08 10:06:59.5546||INFO|Hr.Contract.BackgroundTask.ContractDraftSend|KXA94的合同草稿发起成功，但是資料回調失敗：ORA-02049: 發生逾時狀況: 分散式交易可繼續等候鎖定權的時間已過
+ORA-02063: 在 line 之前, 自 ERPTEST02.MIC.COM.TW 
+2022-03-08 10:07:04.5878||INFO|Hr.Contract.BackgroundTask.ContractDraftSend|KXB15的合同草稿发起成功！ 
+2022-03-08 10:07:31.3459||INFO|Hr.Contract.BackgroundTask.ContractDraftSend|KWF62的合同草稿发起成功！ 
+2022-03-08 10:07:36.0301||INFO|Hr.Contract.BackgroundTask.ContractDraftSend|KXB19的合同草稿发起成功！ 
+2022-03-08 10:07:40.4501||INFO|Hr.Contract.BackgroundTask.ContractDraftSend|KXB09的合同草稿发起成功！ 
+2022-03-08 10:07:45.5521||INFO|Hr.Contract.BackgroundTask.ContractDraftSend|KXB05的合同草稿发起成功！ 
+2022-03-08 10:07:49.9566||INFO|Hr.Contract.BackgroundTask.ContractDraftSend|KXA98的合同草稿发起成功！ 
+2022-03-08 10:07:56.2277||INFO|Hr.Contract.BackgroundTask.ContractDraftSend|KXB08的合同草稿发起成功！ 
+2022-03-08 10:08:00.7883||INFO|Hr.Contract.BackgroundTask.ContractDraftSend|KXA97的合同草稿发起成功！ 
+2022-03-08 10:08:05.4007||INFO|Hr.Contract.BackgroundTask.ContractDraftSend|KXB10的合同草稿发起成功！ 
+2022-03-08 10:08:10.6169||INFO|Hr.Contract.BackgroundTask.ContractDraftSend|KXB03的合同草稿发起成功！ 
+2022-03-08 10:08:15.6989||INFO|Hr.Contract.BackgroundTask.ContractDraftSend|KXB02的合同草稿发起成功！ 
+2022-03-08 10:08:20.1711||INFO|Hr.Contract.BackgroundTask.ContractDraftSend|KXB01的合同草稿发起成功！ 
+2022-03-08 10:08:25.0498||INFO|Hr.Contract.BackgroundTask.ContractDraftSend|KXA96的合同草稿发起成功！ 
+2022-03-08 10:08:30.2126||INFO|Hr.Contract.BackgroundTask.ContractDraftSend|KXA93的合同草稿发起成功！ 

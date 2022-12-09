@@ -1,0 +1,3 @@
+2022-09-29 14:42:13.0104||ERROR|Mitac.Core.Filters.ExceptionFilter|ORA-01007: 變數不在選取列串中 
+2022-09-29 14:43:56.0055||ERROR|Mitac.Core.Filters.ExceptionFilter|Internal Error 
+2022-09-29 18:55:25.9588||ERROR|Mitac.Core.Filters.ExceptionFilter|ORA-00904: "FILE_TYPE": 無效的 ID 

@@ -1,0 +1,5 @@
+2022-03-30 11:02:41.2546||ERROR|Hr.Contract.BackgroundTask.ContractDraftSend|KTO44:调用契约锁api发起的合同草稿失敗：QiyuesuoSDK.Bean.Response.SdkResponse`1[System.Object] 
+2022-03-30 11:03:12.0537||ERROR|Hr.Contract.BackgroundTask.ContractDraftSend|KVS85的合同草稿发起出现异常：System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hr.Contract.BackgroundTask.ContractDraftSend.GetCategory(CONTRACT_PARAMS param) in D:\WorkFolder\bonnie.wang\MKL-NewProj\Mitac.Net5.WepApi\Mitac.Project\Hr.Contract\BackgroundTask\ContractDraftSend.cs:line 260
+   at Hr.Contract.BackgroundTask.ContractDraftSend.ContractSendOneByOne(CONTRACT_PARAMS param) in D:\WorkFolder\bonnie.wang\MKL-NewProj\Mitac.Net5.WepApi\Mitac.Project\Hr.Contract\BackgroundTask\ContractDraftSend.cs:line 154
+   at Hr.Contract.BackgroundTask.ContractDraftSend.Execute() in D:\WorkFolder\bonnie.wang\MKL-NewProj\Mitac.Net5.WepApi\Mitac.Project\Hr.Contract\BackgroundTask\ContractDraftSend.cs:line 56 

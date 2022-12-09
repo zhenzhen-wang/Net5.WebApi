@@ -1,0 +1,209 @@
+2022-01-11 16:46:33.7288|0|INFO|Hangfire.SQLite.SQLiteStorage|Start installing Hangfire SQL objects... 
+2022-01-11 16:46:33.9973|0|INFO|Hangfire.SQLite.SQLiteStorage|Hangfire SQL objects installed. 
+2022-01-11 16:46:34.1335|0|INFO|Hangfire.BackgroundJobServer|Starting Hangfire Server using job storage: 'SQLite Server: Data Source: Files/Data/Hangfire.sqlite, Version: ' 
+2022-01-11 16:46:34.1461|0|INFO|Hangfire.BackgroundJobServer|Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 
+2022-01-11 16:46:34.1923|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop BackgroundServerProcess:42c835fe has started in 17.8354 ms 
+2022-01-11 16:46:34.7705|0|INFO|Hangfire.Server.BackgroundServerProcess|Server mkl-svr-sfcsts2:13064:f6afd13d successfully announced in 473.6337 ms 
+2022-01-11 16:46:34.7942|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ServerHeartbeatProcess:66156b4d has started in 6.3818 ms 
+2022-01-11 16:46:34.7942|0|INFO|Hangfire.Server.BackgroundServerProcess|Server mkl-svr-sfcsts2:13064:f6afd13d is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, Worker, DelayedJobScheduler, RecurringJobScheduler... 
+2022-01-11 16:46:34.8102|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ServerWatchdog:2bb0c4e2 has started in 5.2573 ms 
+2022-01-11 16:46:34.8369|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ServerJobCancellationWatcher:39761d0e has started in 31.5785 ms 
+2022-01-11 16:46:34.8583|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ExpirationManager:f05ef30d has started in 22.4838 ms 
+2022-01-11 16:46:34.8741|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:c5122966 has started in 27.1117 ms 
+2022-01-11 16:46:34.8741|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:678070b4 has started in 33.3681 ms 
+2022-01-11 16:46:34.8976|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:c18d93e0 has started in 50.7157 ms 
+2022-01-11 16:46:34.9069|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:7fd0f176 has started in 59.4797 ms 
+2022-01-11 16:46:34.9069|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:789bcd9d has started in 72.3592 ms 
+2022-01-11 16:46:34.9069|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:8967e177 has started in 72.8058 ms 
+2022-01-11 16:46:34.9285|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:b30fca31 has started in 81.7309 ms 
+2022-01-11 16:46:34.9285|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:892dfcc6 has started in 89.0137 ms 
+2022-01-11 16:46:34.9427|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:f76ae3db has started in 95.9404 ms 
+2022-01-11 16:46:34.9427|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:d60964b0 has started in 104.513 ms 
+2022-01-11 16:46:34.9610|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:58994944 has started in 114.342 ms 
+2022-01-11 16:46:34.9610|0|INFO|Hangfire.Server.ServerWatchdog|1 servers were removed due to timeout 
+2022-01-11 16:46:34.9610|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:489d40e4 has started in 114.2776 ms 
+2022-01-11 16:46:34.9694|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:b3243601 has started in 122.6006 ms 
+2022-01-11 16:46:34.9694|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:a66f560f has started in 134.4717 ms 
+2022-01-11 16:46:34.9875|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:15622624 has started in 140.7364 ms 
+2022-01-11 16:46:34.9875|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:5cd4cabc has started in 151.9113 ms 
+2022-01-11 16:46:35.0050|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:429f1d56 has started in 158.1777 ms 
+2022-01-11 16:46:35.0050|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:0104116a has started in 165.8148 ms 
+2022-01-11 16:46:35.0171|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:79ba33e8 has started in 170.3045 ms 
+2022-01-11 16:46:35.0171|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:18caabf7 has started in 170.3677 ms 
+2022-01-11 16:46:35.0171|0|INFO|Hangfire.Server.BackgroundServerProcess|Server mkl-svr-sfcsts2:13064:f6afd13d all the dispatchers started 
+2022-01-11 16:46:35.0532|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop DelayedJobScheduler:19812c52 has started in 40.5862 ms 
+2022-01-11 16:46:35.0532|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop RecurringJobScheduler:45d1ab1f has started in 33.5157 ms 
+2022-01-11 16:46:35.0632|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution ExpirationManager is in the Faulted state now due to an exception, execution will be retried no more than in 00:00:01 Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'FOREIGN KEY constraint failed'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader)
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command)
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Hangfire.SQLite.Core.ExpirationManager.<>c__DisplayClass9_0.<Execute>b__0(SqliteConnection connection)
+   at Hangfire.SQLite.SQLiteStorage.<>c__DisplayClass16_0.<UseConnection>b__0(SqliteConnection connection)
+   at Hangfire.SQLite.SQLiteStorage.UseConnection[T](Func`2 func, Boolean isWriteLock)
+   at Hangfire.SQLite.SQLiteStorage.UseConnection(Action`1 action, Boolean isWriteLock)
+   at Hangfire.SQLite.Core.ExpirationManager.Execute(CancellationToken cancellationToken)
+   at Hangfire.Server.ServerProcessDispatcherBuilder.ExecuteComponent(Guid executionId, Object state)
+   at Hangfire.Processing.BackgroundExecution.Run(Action`2 callback, Object state)
+2022-01-11 16:46:35.2059|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ExpirationManager:f05ef30d caught an exception and will be retried in 00:00:01 Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'FOREIGN KEY constraint failed'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader)
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command)
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Hangfire.SQLite.Core.ExpirationManager.<>c__DisplayClass9_0.<Execute>b__0(SqliteConnection connection)
+   at Hangfire.SQLite.SQLiteStorage.<>c__DisplayClass16_0.<UseConnection>b__0(SqliteConnection connection)
+   at Hangfire.SQLite.SQLiteStorage.UseConnection[T](Func`2 func, Boolean isWriteLock)
+   at Hangfire.SQLite.SQLiteStorage.UseConnection(Action`1 action, Boolean isWriteLock)
+   at Hangfire.SQLite.Core.ExpirationManager.Execute(CancellationToken cancellationToken)
+   at Hangfire.Server.ServerProcessDispatcherBuilder.ExecuteComponent(Guid executionId, Object state)
+   at Hangfire.Processing.BackgroundExecution.Run(Action`2 callback, Object state)
+2022-01-11 16:46:35.2220|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ExpirationManager:f05ef30d will be retried in 00:00:01... 
+2022-01-11 16:46:36.3497|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|ContractDraftSend: task is starting 
+2022-01-11 16:46:36.3767|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|CleanLogFilesJob: task is completed 
+2022-01-11 16:46:36.6841|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5002 
+2022-01-11 16:46:36.7211|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|ContractDraftSend: task is starting 
+2022-01-11 16:46:36.7211|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5003 
+2022-01-11 16:46:36.7211|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|CleanLogFilesJob: task is completed 
+2022-01-11 16:46:36.7355|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-01-11 16:46:36.7510|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-01-11 16:46:36.7510|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\WorkFolder\bonnie.wang\TestProject\NET5\Mitac.Net5.WepApi\Mitac.Net5.WepApi 
+2022-01-11 16:46:36.8994|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ExpirationManager:f05ef30d caught an exception and will be retried in 00:00:04 Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'FOREIGN KEY constraint failed'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader)
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command)
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Hangfire.SQLite.Core.ExpirationManager.<>c__DisplayClass9_0.<Execute>b__0(SqliteConnection connection)
+   at Hangfire.SQLite.SQLiteStorage.<>c__DisplayClass16_0.<UseConnection>b__0(SqliteConnection connection)
+   at Hangfire.SQLite.SQLiteStorage.UseConnection[T](Func`2 func, Boolean isWriteLock)
+   at Hangfire.SQLite.SQLiteStorage.UseConnection(Action`1 action, Boolean isWriteLock)
+   at Hangfire.SQLite.Core.ExpirationManager.Execute(CancellationToken cancellationToken)
+   at Hangfire.Server.ServerProcessDispatcherBuilder.ExecuteComponent(Guid executionId, Object state)
+   at Hangfire.Processing.BackgroundExecution.Run(Action`2 callback, Object state)
+2022-01-11 16:46:36.9168|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ExpirationManager:f05ef30d will be retried in 00:00:04... 
+2022-01-11 16:46:38.7086|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|ContractDraftSend: task is starting 
+2022-01-11 16:46:38.7277|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|CleanLogFilesJob: task is completed 
+2022-01-11 16:47:09.5820|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|ContractDraftSend: task is starting 
+2022-01-11 16:47:09.5820|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|CleanLogFilesJob: task is completed 
+2022-01-11 16:47:10.2868|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|ContractDraftSend: task is starting 
+2022-01-11 16:47:10.3053|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|CleanLogFilesJob: task is completed 
+2022-01-11 16:47:10.7190|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|ContractDraftSend: task is starting 
+2022-01-11 16:47:10.7358|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|CleanLogFilesJob: task is completed 
+2022-01-11 16:47:11.1285|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|ContractDraftSend: task is starting 
+2022-01-11 16:47:11.1465|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|CleanLogFilesJob: task is completed 
+2022-01-11 16:47:11.2847|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|ContractDraftSend: task is starting 
+2022-01-11 16:47:11.3070|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|CleanLogFilesJob: task is completed 
+2022-01-11 16:47:11.4061|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|ContractDraftSend: task is starting 
+2022-01-11 16:47:11.4240|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|CleanLogFilesJob: task is completed 
+2022-01-11 16:47:12.7652|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|ContractDraftSend: task is starting 
+2022-01-11 16:47:12.7819|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|CleanLogFilesJob: task is completed 
+2022-01-11 16:47:12.7819|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|ContractDraftSend: task is starting 
+2022-01-11 16:47:12.8042|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|CleanLogFilesJob: task is completed 
+2022-01-11 16:47:13.7145|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|ContractDraftSend: task is starting 
+2022-01-11 16:47:13.7373|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|CleanLogFilesJob: task is completed 
+2022-01-11 16:47:13.7929|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|ContractDraftSend: task is starting 
+2022-01-11 16:47:13.8153|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|CleanLogFilesJob: task is completed 
+2022-01-11 16:47:14.0547|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|ContractDraftSend: task is starting 
+2022-01-11 16:47:14.0796|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|CleanLogFilesJob: task is completed 
+2022-01-11 16:47:35.0368|0|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server mkl-svr-sfcsts2:13064:f6afd13d heartbeat successfully sent 
+2022-01-11 16:47:45.6226|0|ERROR|Hangfire.Processing.BackgroundExecution|Execution ExpirationManager is in the Failed state now due to an exception, execution will be retried no more than in 00:00:09 Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'FOREIGN KEY constraint failed'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader)
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command)
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Hangfire.SQLite.Core.ExpirationManager.<>c__DisplayClass9_0.<Execute>b__0(SqliteConnection connection)
+   at Hangfire.SQLite.SQLiteStorage.<>c__DisplayClass16_0.<UseConnection>b__0(SqliteConnection connection)
+   at Hangfire.SQLite.SQLiteStorage.UseConnection[T](Func`2 func, Boolean isWriteLock)
+   at Hangfire.SQLite.SQLiteStorage.UseConnection(Action`1 action, Boolean isWriteLock)
+   at Hangfire.SQLite.Core.ExpirationManager.Execute(CancellationToken cancellationToken)
+   at Hangfire.Server.ServerProcessDispatcherBuilder.ExecuteComponent(Guid executionId, Object state)
+   at Hangfire.Processing.BackgroundExecution.Run(Action`2 callback, Object state)
+2022-01-11 16:47:45.6450|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ExpirationManager:f05ef30d caught an exception and will be retried in 00:00:09 Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'FOREIGN KEY constraint failed'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader)
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command)
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Hangfire.SQLite.Core.ExpirationManager.<>c__DisplayClass9_0.<Execute>b__0(SqliteConnection connection)
+   at Hangfire.SQLite.SQLiteStorage.<>c__DisplayClass16_0.<UseConnection>b__0(SqliteConnection connection)
+   at Hangfire.SQLite.SQLiteStorage.UseConnection[T](Func`2 func, Boolean isWriteLock)
+   at Hangfire.SQLite.SQLiteStorage.UseConnection(Action`1 action, Boolean isWriteLock)
+   at Hangfire.SQLite.Core.ExpirationManager.Execute(CancellationToken cancellationToken)
+   at Hangfire.Server.ServerProcessDispatcherBuilder.ExecuteComponent(Guid executionId, Object state)
+   at Hangfire.Processing.BackgroundExecution.Run(Action`2 callback, Object state)
+2022-01-11 16:47:45.6653|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ExpirationManager:f05ef30d will be retried in 00:00:09... 
+2022-01-11 16:47:47.6673|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|ContractDraftSend: task is starting 
+2022-01-11 16:47:47.6873|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|CleanLogFilesJob: task is completed 
+2022-01-11 16:47:48.3796|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|ContractDraftSend: task is starting 
+2022-01-11 16:47:48.3986|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|CleanLogFilesJob: task is completed 
+2022-01-11 16:47:48.4275|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|ContractDraftSend: task is starting 
+2022-01-11 16:47:48.4435|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|CleanLogFilesJob: task is completed 
+2022-01-11 16:47:49.2308|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|ContractDraftSend: task is starting 
+2022-01-11 16:47:49.2540|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|CleanLogFilesJob: task is completed 
+2022-01-11 16:47:50.0359|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|ContractDraftSend: task is starting 
+2022-01-11 16:47:50.0572|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|CleanLogFilesJob: task is completed 
+2022-01-11 16:47:50.7966|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|ContractDraftSend: task is starting 
+2022-01-11 16:47:50.8112|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|CleanLogFilesJob: task is completed 
+2022-01-11 16:47:51.5259|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|ContractDraftSend: task is starting 
+2022-01-11 16:47:51.5990|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|CleanLogFilesJob: task is completed 
+2022-01-11 16:47:52.1509|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|ContractDraftSend: task is starting 
+2022-01-11 16:47:52.1720|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|CleanLogFilesJob: task is completed 
+2022-01-11 16:47:52.3243|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|ContractDraftSend: task is starting 
+2022-01-11 16:47:52.3400|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|CleanLogFilesJob: task is completed 
+2022-01-11 16:47:53.2991|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|ContractDraftSend: task is starting 
+2022-01-11 16:47:53.3194|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|CleanLogFilesJob: task is completed 
+2022-01-11 16:48:17.3044|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|ContractDraftSend: task is starting 
+2022-01-11 16:48:17.3274|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|CleanLogFilesJob: task is completed 
+2022-01-11 16:48:19.4242|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|ContractDraftSend: task is starting 
+2022-01-11 16:48:19.4443|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|CleanLogFilesJob: task is completed 
+2022-01-11 16:48:19.6140|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|ContractDraftSend: task is starting 
+2022-01-11 16:48:19.6265|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|CleanLogFilesJob: task is completed 
+2022-01-11 16:48:19.8160|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|ContractDraftSend: task is starting 
+2022-01-11 16:48:19.8324|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|CleanLogFilesJob: task is completed 
+2022-01-11 16:48:20.0690|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|ContractDraftSend: task is starting 
+2022-01-11 16:48:20.0833|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|CleanLogFilesJob: task is completed 
+2022-01-11 16:48:23.3589|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ExpirationManager:f05ef30d caught an exception and will be retried in 00:00:16 Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'FOREIGN KEY constraint failed'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader)
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command)
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Hangfire.SQLite.Core.ExpirationManager.<>c__DisplayClass9_0.<Execute>b__0(SqliteConnection connection)
+   at Hangfire.SQLite.SQLiteStorage.<>c__DisplayClass16_0.<UseConnection>b__0(SqliteConnection connection)
+   at Hangfire.SQLite.SQLiteStorage.UseConnection[T](Func`2 func, Boolean isWriteLock)
+   at Hangfire.SQLite.SQLiteStorage.UseConnection(Action`1 action, Boolean isWriteLock)
+   at Hangfire.SQLite.Core.ExpirationManager.Execute(CancellationToken cancellationToken)
+   at Hangfire.Server.ServerProcessDispatcherBuilder.ExecuteComponent(Guid executionId, Object state)
+   at Hangfire.Processing.BackgroundExecution.Run(Action`2 callback, Object state)
+2022-01-11 16:48:23.3772|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ExpirationManager:f05ef30d will be retried in 00:00:16... 
+2022-01-11 16:48:25.5732|0|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server mkl-svr-sfcsts2:13064:f6afd13d heartbeat successfully sent 
+2022-01-11 16:48:25.6726|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|ContractDraftSend: task is starting 
+2022-01-11 16:48:25.6726|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|CleanLogFilesJob: task is completed 
+2022-01-11 16:48:26.9120|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|ContractDraftSend: task is starting 
+2022-01-11 16:48:26.9352|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|CleanLogFilesJob: task is completed 
+2022-01-11 16:48:27.8423|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|ContractDraftSend: task is starting 
+2022-01-11 16:48:27.8567|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|CleanLogFilesJob: task is completed 
+2022-01-11 16:48:28.5803|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|ContractDraftSend: task is starting 
+2022-01-11 16:48:28.6019|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|CleanLogFilesJob: task is completed 
+2022-01-11 16:48:28.8899|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|ContractDraftSend: task is starting 
+2022-01-11 16:48:28.9066|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|CleanLogFilesJob: task is completed 
+2022-01-11 16:48:58.5369|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|ContractDraftSend: task is starting 
+2022-01-11 16:48:58.5594|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|CleanLogFilesJob: task is completed 
+2022-01-11 16:48:59.5896|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|ContractDraftSend: task is starting 
+2022-01-11 16:48:59.6105|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|CleanLogFilesJob: task is completed 

@@ -1,0 +1,6 @@
+2022-09-16 11:42:40.3200||ERROR|Mitac.Core.Filters.ExceptionFilter|'System.Text.Json.JsonElement' does not contain a definition for 'side' 
+2022-09-16 11:43:42.5887||ERROR|Mitac.Core.Filters.ExceptionFilter|'System.Text.Json.JsonElement' does not contain a definition for 'side' 
+2022-09-16 13:48:19.0254||ERROR|Mitac.Core.Filters.ExceptionFilter|'System.Text.Json.JsonElement' does not contain a definition for 'side' 
+2022-09-16 16:33:23.1897||ERROR|Mitac.Core.Filters.ExceptionFilter|Object reference not set to an instance of an object. 
+2022-09-16 16:36:20.0473||ERROR|Mitac.Core.Filters.ExceptionFilter|Object reference not set to an instance of an object. 
+2022-09-16 16:39:40.9984||ERROR|Mitac.Core.Filters.ExceptionFilter|Object reference not set to an instance of an object. 

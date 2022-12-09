@@ -1,0 +1,133 @@
+2022-05-02 11:29:03.3214||INFO|Hr.Contract.BackgroundTask.ContractDownload|Download_Job開始運行...... 
+2022-05-02 11:29:03.3715||INFO|Hr.Contract.BackgroundTask.ContractDraftSend|Send_Job開始運行...... 
+2022-05-02 11:37:17.8591||INFO|Hr.Contract.BackgroundTask.ContractDownload|Download_Job開始運行...... 
+2022-05-02 13:14:20.0587||INFO|Hr.Contract.BackgroundTask.ContractDownload|Download_Job開始運行...... 
+2022-05-02 13:20:28.4393||INFO|Hr.Contract.BackgroundTask.ContractDownload|Download_Job開始運行...... 
+2022-05-02 13:43:22.4284||INFO|Hr.Contract.BackgroundTask.ContractDownload|Download_Job開始運行...... 
+2022-05-02 13:48:28.0174||INFO|Hr.Contract.BackgroundTask.ContractDownload|Download_Job開始運行...... 
+2022-05-02 13:48:30.3129||INFO|Hr.Contract.BackgroundTask.ContractDownload|3 
+2022-05-02 13:51:26.9982||INFO|Hr.Contract.BackgroundTask.ContractDownload|Download_Job開始運行...... 
+2022-05-02 13:51:29.2827||INFO|Hr.Contract.BackgroundTask.ContractDownload|0 
+2022-05-02 13:51:29.2854||INFO|Hr.Contract.BackgroundTask.ContractDownload|有数据 
+2022-05-02 14:05:29.1651||INFO|Hr.Contract.BackgroundTask.ContractDraftSend|Send_Job開始運行...... 
+2022-05-02 14:06:14.1244||INFO|Hr.Contract.BackgroundTask.ContractDownload|Download_Job開始運行...... 
+2022-05-02 14:06:14.7688||INFO|Hr.Contract.BackgroundTask.ContractDownload|0 
+2022-05-02 14:15:22.2324||INFO|Hr.Contract.BackgroundTask.ContractDownload|Download_Job開始運行...... 
+2022-05-02 14:15:24.5986||INFO|Hr.Contract.BackgroundTask.ContractDownload|0 
+2022-05-02 14:32:26.1107||INFO|Hr.Contract.BackgroundTask.ContractDownload|Download_Job開始運行...... 
+2022-05-02 14:32:28.3759||INFO|Hr.Contract.BackgroundTask.ContractDownload|0 
+2022-05-02 14:44:22.3078||INFO|Hr.Contract.BackgroundTask.ContractDownload|Download_Job開始運行...... 
+2022-05-02 14:44:24.5813||INFO|Hr.Contract.BackgroundTask.ContractDownload|0 
+2022-05-02 14:49:22.2141||INFO|Hr.Contract.BackgroundTask.ContractDownload|Download_Job開始運行...... 
+2022-05-02 14:49:24.2857||INFO|Hr.Contract.BackgroundTask.ContractDownload|0 
+2022-05-02 14:55:20.2012||INFO|Hr.Contract.BackgroundTask.ContractDownload|Download_Job開始運行...... 
+2022-05-02 14:55:27.2974||INFO|Hr.Contract.BackgroundTask.ContractDownload|18 
+2022-05-02 14:59:25.4039||INFO|Hr.Contract.BackgroundTask.ContractDownload|Download_Job開始運行...... 
+2022-05-02 14:59:27.6449||INFO|Hr.Contract.BackgroundTask.ContractDownload|0 
+2022-05-02 15:16:25.5605||INFO|Hr.Contract.BackgroundTask.ContractDownload|Download_Job開始運行...... 
+2022-05-02 15:16:28.0225||INFO|Hr.Contract.BackgroundTask.ContractDownload|0 
+2022-05-02 15:21:15.4516||INFO|Hr.Contract.BackgroundTask.ContractDownload|Download_Job開始運行...... 
+2022-05-02 15:21:17.6576||INFO|Hr.Contract.BackgroundTask.ContractDownload|0 
+2022-05-02 15:25:24.5016||INFO|Hr.Contract.BackgroundTask.ContractDownload|Download_Job開始運行...... 
+2022-05-02 15:25:26.7892||INFO|Hr.Contract.BackgroundTask.ContractDownload|0 
+2022-05-02 15:27:16.5065||INFO|Hr.Contract.BackgroundTask.ContractDownload|Download_Job開始運行...... 
+2022-05-02 15:27:18.7632||INFO|Hr.Contract.BackgroundTask.ContractDownload|0 
+2022-05-02 15:30:20.8656||INFO|Hr.Contract.BackgroundTask.ContractDownload|Download_Job開始運行...... 
+2022-05-02 15:30:23.1031||INFO|Hr.Contract.BackgroundTask.ContractDownload|0 
+2022-05-02 15:44:16.1642||INFO|Hr.Contract.BackgroundTask.ContractDownload|Download_Job開始運行...... 
+2022-05-02 15:44:16.2202||INFO|Hr.Contract.BackgroundTask.ContractDraftSend|Send_Job開始運行...... 
+2022-05-02 15:44:18.5737||INFO|Hr.Contract.BackgroundTask.ContractDownload|0 
+2022-05-02 15:48:30.9533||INFO|Hr.Contract.BackgroundTask.ContractDownload|Download_Job開始運行...... 
+2022-05-02 15:48:33.1858||INFO|Hr.Contract.BackgroundTask.ContractDownload|2 
+2022-05-02 15:50:25.7856||INFO|Hr.Contract.BackgroundTask.ContractDownload|Download_Job開始運行...... 
+2022-05-02 15:50:28.0613||INFO|Hr.Contract.BackgroundTask.ContractDownload|0 
+2022-05-02 15:57:25.0339||INFO|Hr.Contract.BackgroundTask.ContractDownload|Download_Job開始運行...... 
+2022-05-02 15:57:27.2220||INFO|Hr.Contract.BackgroundTask.ContractDownload|21 
+2022-05-02 15:57:29.1019||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY32 合同下载成功 
+2022-05-02 15:57:29.9851||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY32 合同解压成功 
+2022-05-02 15:57:31.0385||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY37 合同下载成功 
+2022-05-02 15:57:31.6748||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY37 合同解压成功 
+2022-05-02 15:57:33.2125||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY43 合同下载成功 
+2022-05-02 15:57:33.7295||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY43 合同解压成功 
+2022-05-02 15:57:34.6206||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY26 合同下载成功 
+2022-05-02 15:57:35.1905||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY26 合同解压成功 
+2022-05-02 15:57:36.2774||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY38 合同下载成功 
+2022-05-02 15:57:36.8005||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY38 合同解压成功 
+2022-05-02 15:57:37.6997||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY33 合同下载成功 
+2022-05-02 15:57:38.2724||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY33 合同解压成功 
+2022-05-02 15:57:39.4252||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY34 合同下载成功 
+2022-05-02 15:57:39.9871||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY34 合同解压成功 
+2022-05-02 15:57:41.0055||INFO|Hr.Contract.BackgroundTask.ContractDownload|KUQ88 合同下载成功 
+2022-05-02 15:57:41.5204||INFO|Hr.Contract.BackgroundTask.ContractDownload|KUQ88 合同解压成功 
+2022-05-02 15:57:42.6261||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY39 合同下载成功 
+2022-05-02 15:57:43.2263||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY39 合同解压成功 
+2022-05-02 15:57:44.3215||INFO|Hr.Contract.BackgroundTask.ContractDownload|KUU64 合同下载成功 
+2022-05-02 15:57:44.8492||INFO|Hr.Contract.BackgroundTask.ContractDownload|KUU64 合同解压成功 
+2022-05-02 15:57:45.8304||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY40 合同下载成功 
+2022-05-02 15:57:46.3988||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY40 合同解压成功 
+2022-05-02 15:57:47.4625||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY42 合同下载成功 
+2022-05-02 15:57:48.0326||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY42 合同解压成功 
+2022-05-02 15:57:48.9333||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY35 合同下载成功 
+2022-05-02 15:57:49.5008||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY35 合同解压成功 
+2022-05-02 15:57:50.6246||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY44 合同下载成功 
+2022-05-02 15:57:51.2345||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY44 合同解压成功 
+2022-05-02 15:57:52.1537||INFO|Hr.Contract.BackgroundTask.ContractDownload|KUT53 合同下载成功 
+2022-05-02 15:57:52.7356||INFO|Hr.Contract.BackgroundTask.ContractDownload|KUT53 合同解压成功 
+2022-05-02 15:57:53.6295||INFO|Hr.Contract.BackgroundTask.ContractDownload|KVS85 合同下载成功 
+2022-05-02 15:57:54.2165||INFO|Hr.Contract.BackgroundTask.ContractDownload|KVS85 合同解压成功 
+2022-05-02 15:57:55.5726||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY30 合同下载成功 
+2022-05-02 15:57:56.1524||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY30 合同解压成功 
+2022-05-02 15:57:57.1313||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY25 合同下载成功 
+2022-05-02 15:57:57.6915||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY25 合同解压成功 
+2022-05-02 15:57:58.6056||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY41 合同下载成功 
+2022-05-02 15:57:59.1686||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY41 合同解压成功 
+2022-05-02 15:58:00.0856||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY27 合同下载成功 
+2022-05-02 15:58:00.6438||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY27 合同解压成功 
+2022-05-02 15:58:01.5714||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY36 合同下载成功 
+2022-05-02 15:58:02.1114||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY36 合同解压成功 
+2022-05-02 16:04:17.9197||INFO|Hr.Contract.BackgroundTask.ContractDownload|Download_Job開始運行...... 
+2022-05-02 16:04:20.2555||INFO|Hr.Contract.BackgroundTask.ContractDownload|0 
+2022-05-02 16:08:18.3783||INFO|Hr.Contract.BackgroundTask.ContractDownload|Download_Job開始運行...... 
+2022-05-02 16:08:20.6495||INFO|Hr.Contract.BackgroundTask.ContractDownload|21 
+2022-05-02 16:08:22.5402||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY32 合同下载成功 
+2022-05-02 16:08:23.6312||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY32 合同解压成功 
+2022-05-02 16:08:24.5542||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY37 合同下载成功 
+2022-05-02 16:08:25.1470||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY37 合同解压成功 
+2022-05-02 16:08:26.0741||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY43 合同下载成功 
+2022-05-02 16:08:26.6094||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY43 合同解压成功 
+2022-05-02 16:08:27.9135||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY26 合同下载成功 
+2022-05-02 16:08:28.4911||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY26 合同解压成功 
+2022-05-02 16:08:29.6564||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY38 合同下载成功 
+2022-05-02 16:08:30.1975||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY38 合同解压成功 
+2022-05-02 16:08:32.3412||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY33 合同下载成功 
+2022-05-02 16:08:32.8721||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY33 合同解压成功 
+2022-05-02 16:08:33.9559||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY34 合同下载成功 
+2022-05-02 16:08:34.5387||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY34 合同解压成功 
+2022-05-02 16:08:35.9222||INFO|Hr.Contract.BackgroundTask.ContractDownload|KUQ88 合同下载成功 
+2022-05-02 16:08:36.4292||INFO|Hr.Contract.BackgroundTask.ContractDownload|KUQ88 合同解压成功 
+2022-05-02 16:08:37.3513||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY39 合同下载成功 
+2022-05-02 16:08:37.9154||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY39 合同解压成功 
+2022-05-02 16:08:39.0543||INFO|Hr.Contract.BackgroundTask.ContractDownload|KUU64 合同下载成功 
+2022-05-02 16:08:39.5861||INFO|Hr.Contract.BackgroundTask.ContractDownload|KUU64 合同解压成功 
+2022-05-02 16:08:41.4841||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY40 合同下载成功 
+2022-05-02 16:08:42.0301||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY40 合同解压成功 
+2022-05-02 16:08:43.3491||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY42 合同下载成功 
+2022-05-02 16:08:43.9583||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY42 合同解压成功 
+2022-05-02 16:08:44.9015||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY35 合同下载成功 
+2022-05-02 16:08:45.4733||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY35 合同解压成功 
+2022-05-02 16:08:46.4244||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY44 合同下载成功 
+2022-05-02 16:08:47.0416||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY44 合同解压成功 
+2022-05-02 16:08:48.0964||INFO|Hr.Contract.BackgroundTask.ContractDownload|KUT53 合同下载成功 
+2022-05-02 16:08:48.7387||INFO|Hr.Contract.BackgroundTask.ContractDownload|KUT53 合同解压成功 
+2022-05-02 16:08:49.7163||INFO|Hr.Contract.BackgroundTask.ContractDownload|KVS85 合同下载成功 
+2022-05-02 16:08:50.2655||INFO|Hr.Contract.BackgroundTask.ContractDownload|KVS85 合同解压成功 
+2022-05-02 16:08:51.2398||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY30 合同下载成功 
+2022-05-02 16:08:51.8114||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY30 合同解压成功 
+2022-05-02 16:08:52.7354||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY25 合同下载成功 
+2022-05-02 16:08:53.3356||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY25 合同解压成功 
+2022-05-02 16:08:54.2505||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY41 合同下载成功 
+2022-05-02 16:08:54.7884||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY41 合同解压成功 
+2022-05-02 16:08:55.7723||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY27 合同下载成功 
+2022-05-02 16:08:56.3146||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY27 合同解压成功 
+2022-05-02 16:08:57.2795||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY36 合同下载成功 
+2022-05-02 16:08:57.8356||INFO|Hr.Contract.BackgroundTask.ContractDownload|KWY36 合同解压成功 

@@ -1,0 +1,36 @@
+2022-05-02 11:29:07.5995||ERROR|Hr.Contract.BackgroundTask.ContractDraftSend|KTO44:调用契约锁api发起的合同草稿失敗：签署方校验:接收人校验:INVALID PARAM,手机号格式错误 contact:131********** 
+2022-05-02 11:29:08.0890||ERROR|Hr.Contract.BackgroundTask.ContractDraftSend|KVS85的合同草稿发起出现异常：System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hr.Contract.BackgroundTask.ContractDraftSend.GetCategory(CONTRACT_PARAMS param) in D:\WorkFolder\bonnie.wang\MKL-NewProj\Mitac.Net5.WepApi\Mitac.Project\Hr.Contract\BackgroundTask\ContractDraftSend.cs:line 260
+   at Hr.Contract.BackgroundTask.ContractDraftSend.ContractSendOneByOne(CONTRACT_PARAMS param) in D:\WorkFolder\bonnie.wang\MKL-NewProj\Mitac.Net5.WepApi\Mitac.Project\Hr.Contract\BackgroundTask\ContractDraftSend.cs:line 154
+   at Hr.Contract.BackgroundTask.ContractDraftSend.Execute() in D:\WorkFolder\bonnie.wang\MKL-NewProj\Mitac.Net5.WepApi\Mitac.Project\Hr.Contract\BackgroundTask\ContractDraftSend.cs:line 56 
+2022-05-02 14:05:32.2628||ERROR|Hr.Contract.BackgroundTask.ContractDraftSend|KTO44:调用契约锁api发起的合同草稿失敗：签署方校验:接收人校验:INVALID PARAM,手机号格式错误 contact:131********** 
+2022-05-02 14:05:32.4077||ERROR|Hr.Contract.BackgroundTask.ContractDraftSend|KVS85的合同草稿发起出现异常：System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hr.Contract.BackgroundTask.ContractDraftSend.GetCategory(CONTRACT_PARAMS param) in D:\WorkFolder\bonnie.wang\MKL-NewProj\Mitac.Net5.WepApi\Mitac.Project\Hr.Contract\BackgroundTask\ContractDraftSend.cs:line 260
+   at Hr.Contract.BackgroundTask.ContractDraftSend.ContractSendOneByOne(CONTRACT_PARAMS param) in D:\WorkFolder\bonnie.wang\MKL-NewProj\Mitac.Net5.WepApi\Mitac.Project\Hr.Contract\BackgroundTask\ContractDraftSend.cs:line 154
+   at Hr.Contract.BackgroundTask.ContractDraftSend.Execute() in D:\WorkFolder\bonnie.wang\MKL-NewProj\Mitac.Net5.WepApi\Mitac.Project\Hr.Contract\BackgroundTask\ContractDraftSend.cs:line 56 
+2022-05-02 14:55:28.2661||ERROR|Hr.Contract.BackgroundTask.ContractDownload|KXC43的合同下载时出现异常：The remote server returned an error: (442) Client Error (442). 
+2022-05-02 14:55:28.7608||ERROR|Hr.Contract.BackgroundTask.ContractDownload|KXC42的合同下载时出现异常：The remote server returned an error: (442) Client Error (442). 
+2022-05-02 14:55:29.1317||ERROR|Hr.Contract.BackgroundTask.ContractDownload|KXC39的合同下载时出现异常：The remote server returned an error: (442) Client Error (442). 
+2022-05-02 14:55:29.4786||ERROR|Hr.Contract.BackgroundTask.ContractDownload|KWD21的合同下载时出现异常：The remote server returned an error: (442) Client Error (442). 
+2022-05-02 14:55:29.8449||ERROR|Hr.Contract.BackgroundTask.ContractDownload|KXC49的合同下载时出现异常：The remote server returned an error: (442) Client Error (442). 
+2022-05-02 14:55:30.2061||ERROR|Hr.Contract.BackgroundTask.ContractDownload|KXC44的合同下载时出现异常：The remote server returned an error: (442) Client Error (442). 
+2022-05-02 14:55:30.5703||ERROR|Hr.Contract.BackgroundTask.ContractDownload|KHC14的合同下载时出现异常：The remote server returned an error: (442) Client Error (442). 
+2022-05-02 14:55:30.9331||ERROR|Hr.Contract.BackgroundTask.ContractDownload|KFF98的合同下载时出现异常：The remote server returned an error: (442) Client Error (442). 
+2022-05-02 14:55:31.2860||ERROR|Hr.Contract.BackgroundTask.ContractDownload|KXC50的合同下载时出现异常：The remote server returned an error: (442) Client Error (442). 
+2022-05-02 14:55:31.6363||ERROR|Hr.Contract.BackgroundTask.ContractDownload|KXC40的合同下载时出现异常：The remote server returned an error: (442) Client Error (442). 
+2022-05-02 14:55:32.0005||ERROR|Hr.Contract.BackgroundTask.ContractDownload|KXC19的合同下载时出现异常：The remote server returned an error: (442) Client Error (442). 
+2022-05-02 14:55:32.3825||ERROR|Hr.Contract.BackgroundTask.ContractDownload|KXC27的合同下载时出现异常：The remote server returned an error: (442) Client Error (442). 
+2022-05-02 14:55:32.7582||ERROR|Hr.Contract.BackgroundTask.ContractDownload|KXC34的合同下载时出现异常：The remote server returned an error: (442) Client Error (442). 
+2022-05-02 14:55:33.1262||ERROR|Hr.Contract.BackgroundTask.ContractDownload|KXC36的合同下载时出现异常：The remote server returned an error: (442) Client Error (442). 
+2022-05-02 14:55:33.5132||ERROR|Hr.Contract.BackgroundTask.ContractDownload|KXC35的合同下载时出现异常：The remote server returned an error: (442) Client Error (442). 
+2022-05-02 14:55:33.8807||ERROR|Hr.Contract.BackgroundTask.ContractDownload|KXC47的合同下载时出现异常：The remote server returned an error: (442) Client Error (442). 
+2022-05-02 14:55:34.2719||ERROR|Hr.Contract.BackgroundTask.ContractDownload|KXC37的合同下载时出现异常：The remote server returned an error: (442) Client Error (442). 
+2022-05-02 14:55:34.6386||ERROR|Hr.Contract.BackgroundTask.ContractDownload|KXC41的合同下载时出现异常：The remote server returned an error: (442) Client Error (442). 
+2022-05-02 15:44:19.2730||ERROR|Hr.Contract.BackgroundTask.ContractDraftSend|KTO44:调用契约锁api发起的合同草稿失敗：签署方校验:接收人校验:INVALID PARAM,手机号格式错误 contact:131********** 
+2022-05-02 15:44:19.4461||ERROR|Hr.Contract.BackgroundTask.ContractDraftSend|KVS85的合同草稿发起出现异常：System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hr.Contract.BackgroundTask.ContractDraftSend.GetCategory(CONTRACT_PARAMS param) in D:\WorkFolder\bonnie.wang\MKL-NewProj\Mitac.Net5.WepApi\Mitac.Project\Hr.Contract\BackgroundTask\ContractDraftSend.cs:line 260
+   at Hr.Contract.BackgroundTask.ContractDraftSend.ContractSendOneByOne(CONTRACT_PARAMS param) in D:\WorkFolder\bonnie.wang\MKL-NewProj\Mitac.Net5.WepApi\Mitac.Project\Hr.Contract\BackgroundTask\ContractDraftSend.cs:line 154
+   at Hr.Contract.BackgroundTask.ContractDraftSend.Execute() in D:\WorkFolder\bonnie.wang\MKL-NewProj\Mitac.Net5.WepApi\Mitac.Project\Hr.Contract\BackgroundTask\ContractDraftSend.cs:line 56 
+2022-05-02 15:48:33.8783||ERROR|Hr.Contract.BackgroundTask.ContractDownload|KTO44的合同下载时出现异常：The remote server returned an error: (443) Client Error (443). 
+2022-05-02 15:48:34.2124||ERROR|Hr.Contract.BackgroundTask.ContractDownload|新建合同路径出错：Object reference not set to an instance of an object. 
+2022-05-02 15:48:34.2554||ERROR|Hr.Contract.BackgroundTask.ContractDownload|KVS85的合同下载时出现异常：Empty path name is not legal. (Parameter 'path') 

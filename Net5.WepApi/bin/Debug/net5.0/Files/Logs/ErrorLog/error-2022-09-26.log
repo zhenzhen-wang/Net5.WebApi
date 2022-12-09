@@ -1,0 +1,7 @@
+2022-09-26 13:36:49.2125||ERROR|Mitac.Core.Filters.ExceptionFilter|Connection must be open for this operation 
+2022-09-26 13:38:41.0608||ERROR|Mitac.Core.Filters.ExceptionFilter|Object reference not set to an instance of an object. 
+2022-09-26 13:40:44.0631||ERROR|Mitac.Core.Filters.ExceptionFilter|Object reference not set to an instance of an object. 
+2022-09-26 13:41:34.2161||ERROR|Mitac.Core.Filters.ExceptionFilter|Object reference not set to an instance of an object. 
+2022-09-26 13:42:39.7524||ERROR|Mitac.Core.Filters.ExceptionFilter|Object reference not set to an instance of an object. 
+2022-09-26 13:43:52.5321||ERROR|Mitac.Core.Filters.ExceptionFilter|Object reference not set to an instance of an object. 
+2022-09-26 13:46:42.2078||ERROR|Mitac.Core.Filters.ExceptionFilter|Value cannot be null. (Parameter 'value') 

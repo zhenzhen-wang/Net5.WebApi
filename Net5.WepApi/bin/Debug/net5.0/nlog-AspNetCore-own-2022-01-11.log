@@ -1,0 +1,124 @@
+2022-01-11 17:30:28.0008|0|INFO|Hangfire.SQLite.SQLiteStorage|Start installing Hangfire SQL objects... |url: |action: |Hangfire.AspNetCore.AspNetCoreLog.Log| body: 
+2022-01-11 17:30:28.1978|0|INFO|Hangfire.SQLite.SQLiteStorage|Hangfire SQL objects installed. |url: |action: |Hangfire.AspNetCore.AspNetCoreLog.Log| body: 
+2022-01-11 17:30:28.2941|0|INFO|Hangfire.BackgroundJobServer|Starting Hangfire Server using job storage: 'SQLite Server: Data Source: Files/Data/Hangfire.sqlite, Version: ' |url: |action: |Hangfire.AspNetCore.AspNetCoreLog.Log| body: 
+2022-01-11 17:30:28.3127|0|INFO|Hangfire.BackgroundJobServer|Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 |url: |action: |Hangfire.AspNetCore.AspNetCoreLog.Log| body: 
+2022-01-11 17:30:28.4225|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop BackgroundServerProcess:f87e6431 has started in 25.1488 ms |url: |action: |Hangfire.AspNetCore.AspNetCoreLog.Log| body: 
+2022-01-11 17:30:28.8597|0|INFO|Hangfire.Server.BackgroundServerProcess|Server mkl-svr-sfcsts2:5504:8b62c841 successfully announced in 374.658 ms |url: |action: |Hangfire.AspNetCore.AspNetCoreLog.Log| body: 
+2022-01-11 17:30:28.8870|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ServerHeartbeatProcess:60a4f3ac has started in 8.8278 ms |url: |action: |Hangfire.AspNetCore.AspNetCoreLog.Log| body: 
+2022-01-11 17:30:28.8944|0|INFO|Hangfire.Server.BackgroundServerProcess|Server mkl-svr-sfcsts2:5504:8b62c841 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, Worker, DelayedJobScheduler, RecurringJobScheduler... |url: |action: |Hangfire.AspNetCore.AspNetCoreLog.Log| body: 
+2022-01-11 17:30:28.9368|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ServerWatchdog:d23cf675 has started in 6.7956 ms |url: |action: |Hangfire.AspNetCore.AspNetCoreLog.Log| body: 
+2022-01-11 17:30:28.9537|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ServerJobCancellationWatcher:6ddd0e69 has started in 22.3097 ms |url: |action: |Hangfire.AspNetCore.AspNetCoreLog.Log| body: 
+2022-01-11 17:30:28.9537|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ExpirationManager:e3eab1c5 has started in 23.2096 ms |url: |action: |Hangfire.AspNetCore.AspNetCoreLog.Log| body: 
+2022-01-11 17:30:28.9868|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:750492dd has started in 32.3187 ms |url: |action: |Hangfire.AspNetCore.AspNetCoreLog.Log| body: 
+2022-01-11 17:30:29.0039|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:2b73030f has started in 49.3736 ms |url: |action: |Hangfire.AspNetCore.AspNetCoreLog.Log| body: 
+2022-01-11 17:30:29.0039|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:ad9a2ee0 has started in 53.2893 ms |url: |action: |Hangfire.AspNetCore.AspNetCoreLog.Log| body: 
+2022-01-11 17:30:29.0219|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:0d722679 has started in 67.3931 ms |url: |action: |Hangfire.AspNetCore.AspNetCoreLog.Log| body: 
+2022-01-11 17:30:29.0219|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution ExpirationManager is in the Faulted state now due to an exception, execution will be retried no more than in 00:00:01 Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'FOREIGN KEY constraint failed'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader)
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command)
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Hangfire.SQLite.Core.ExpirationManager.<>c__DisplayClass9_0.<Execute>b__0(SqliteConnection connection)
+   at Hangfire.SQLite.SQLiteStorage.<>c__DisplayClass16_0.<UseConnection>b__0(SqliteConnection connection)
+   at Hangfire.SQLite.SQLiteStorage.UseConnection[T](Func`2 func, Boolean isWriteLock)
+   at Hangfire.SQLite.SQLiteStorage.UseConnection(Action`1 action, Boolean isWriteLock)
+   at Hangfire.SQLite.Core.ExpirationManager.Execute(CancellationToken cancellationToken)
+   at Hangfire.Server.ServerProcessDispatcherBuilder.ExecuteComponent(Guid executionId, Object state)
+   at Hangfire.Processing.BackgroundExecution.Run(Action`2 callback, Object state)|url: |action: |Hangfire.AspNetCore.AspNetCoreLog.Log| body: 
+2022-01-11 17:30:29.2220|0|INFO|Hangfire.Server.BackgroundServerProcess|Server mkl-svr-sfcsts2:5504:8b62c841 all the dispatchers started |url: |action: |Hangfire.AspNetCore.AspNetCoreLog.Log| body: 
+2022-01-11 17:30:29.0516|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:15ead19a has started in 97.0779 ms |url: |action: |Hangfire.AspNetCore.AspNetCoreLog.Log| body: 
+2022-01-11 17:30:29.2568|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ExpirationManager:e3eab1c5 caught an exception and will be retried in 00:00:01 Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'FOREIGN KEY constraint failed'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader)
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command)
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Hangfire.SQLite.Core.ExpirationManager.<>c__DisplayClass9_0.<Execute>b__0(SqliteConnection connection)
+   at Hangfire.SQLite.SQLiteStorage.<>c__DisplayClass16_0.<UseConnection>b__0(SqliteConnection connection)
+   at Hangfire.SQLite.SQLiteStorage.UseConnection[T](Func`2 func, Boolean isWriteLock)
+   at Hangfire.SQLite.SQLiteStorage.UseConnection(Action`1 action, Boolean isWriteLock)
+   at Hangfire.SQLite.Core.ExpirationManager.Execute(CancellationToken cancellationToken)
+   at Hangfire.Server.ServerProcessDispatcherBuilder.ExecuteComponent(Guid executionId, Object state)
+   at Hangfire.Processing.BackgroundExecution.Run(Action`2 callback, Object state)|url: |action: |Hangfire.AspNetCore.AspNetCoreLog.Log| body: 
+2022-01-11 17:30:29.0516|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:a882a934 has started in 98.0487 ms |url: |action: |Hangfire.AspNetCore.AspNetCoreLog.Log| body: 
+2022-01-11 17:30:29.0654|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:1875a46c has started in 110.841 ms |url: |action: |Hangfire.AspNetCore.AspNetCoreLog.Log| body: 
+2022-01-11 17:30:29.2835|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ExpirationManager:e3eab1c5 will be retried in 00:00:01... |url: |action: |Hangfire.AspNetCore.AspNetCoreLog.Log| body: 
+2022-01-11 17:30:29.0782|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:5d525a27 has started in 123.7005 ms |url: |action: |Hangfire.AspNetCore.AspNetCoreLog.Log| body: 
+2022-01-11 17:30:29.0782|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:e72fa7bf has started in 130.367 ms |url: |action: |Hangfire.AspNetCore.AspNetCoreLog.Log| body: 
+2022-01-11 17:30:29.1102|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:1399518f has started in 154.1057 ms |url: |action: |Hangfire.AspNetCore.AspNetCoreLog.Log| body: 
+2022-01-11 17:30:29.1102|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:79d659c2 has started in 162.8308 ms |url: |action: |Hangfire.AspNetCore.AspNetCoreLog.Log| body: 
+2022-01-11 17:30:29.1102|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:86064eee has started in 162.8291 ms |url: |action: |Hangfire.AspNetCore.AspNetCoreLog.Log| body: 
+2022-01-11 17:30:29.1329|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:b4bd6544 has started in 178.3514 ms |url: |action: |Hangfire.AspNetCore.AspNetCoreLog.Log| body: 
+2022-01-11 17:30:29.1638|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:c2198323 has started in 209.2884 ms |url: |action: |Hangfire.AspNetCore.AspNetCoreLog.Log| body: 
+2022-01-11 17:30:29.1916|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:31845d6b has started in 237.1112 ms |url: |action: |Hangfire.AspNetCore.AspNetCoreLog.Log| body: 
+2022-01-11 17:30:29.1735|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:72902fe7 has started in 219.0302 ms |url: |action: |Hangfire.AspNetCore.AspNetCoreLog.Log| body: 
+2022-01-11 17:30:29.1735|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:67e2bb41 has started in 228.9048 ms |url: |action: |Hangfire.AspNetCore.AspNetCoreLog.Log| body: 
+2022-01-11 17:30:29.1916|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:bbd426fe has started in 246.7164 ms |url: |action: |Hangfire.AspNetCore.AspNetCoreLog.Log| body: 
+2022-01-11 17:30:29.2220|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:7b3f9295 has started in 267.4831 ms |url: |action: |Hangfire.AspNetCore.AspNetCoreLog.Log| body: 
+2022-01-11 17:30:29.2220|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:83679be6 has started in 267.4615 ms |url: |action: |Hangfire.AspNetCore.AspNetCoreLog.Log| body: 
+2022-01-11 17:30:29.2363|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop DelayedJobScheduler:7efdacd7 has started in 14.6175 ms |url: |action: |Hangfire.AspNetCore.AspNetCoreLog.Log| body: 
+2022-01-11 17:30:29.2220|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop RecurringJobScheduler:523c2536 has started in 6.7075 ms |url: |action: |Hangfire.AspNetCore.AspNetCoreLog.Log| body: 
+2022-01-11 17:30:29.3733|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5002 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync| body: 
+2022-01-11 17:30:29.3998|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5003 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync| body: 
+2022-01-11 17:30:29.4134|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2022-01-11 17:30:29.4228|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2022-01-11 17:30:29.4420|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\WorkFolder\bonnie.wang\TestProject\NET5\Mitac.Net5.WepApi\Mitac.Net5.WepApi |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2022-01-11 17:30:30.3792|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|  --你好啊，hangfire |url: |action: |Hr.Contract.BackgroundTask.ContractDraftSend.Execute| body: 
+2022-01-11 17:30:30.7084|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|  --你好啊，hangfire |url: |action: |Hr.Contract.BackgroundTask.ContractDraftSend.Execute| body: 
+2022-01-11 17:30:30.8681|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ExpirationManager:e3eab1c5 caught an exception and will be retried in 00:00:04 Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'FOREIGN KEY constraint failed'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader)
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command)
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Hangfire.SQLite.Core.ExpirationManager.<>c__DisplayClass9_0.<Execute>b__0(SqliteConnection connection)
+   at Hangfire.SQLite.SQLiteStorage.<>c__DisplayClass16_0.<UseConnection>b__0(SqliteConnection connection)
+   at Hangfire.SQLite.SQLiteStorage.UseConnection[T](Func`2 func, Boolean isWriteLock)
+   at Hangfire.SQLite.SQLiteStorage.UseConnection(Action`1 action, Boolean isWriteLock)
+   at Hangfire.SQLite.Core.ExpirationManager.Execute(CancellationToken cancellationToken)
+   at Hangfire.Server.ServerProcessDispatcherBuilder.ExecuteComponent(Guid executionId, Object state)
+   at Hangfire.Processing.BackgroundExecution.Run(Action`2 callback, Object state)|url: |action: |Hangfire.AspNetCore.AspNetCoreLog.Log| body: 
+2022-01-11 17:30:30.8807|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ExpirationManager:e3eab1c5 will be retried in 00:00:04... |url: |action: |Hangfire.AspNetCore.AspNetCoreLog.Log| body: 
+2022-01-11 17:30:33.4319|0|INFO|Hr.Contract.BackgroundTask.ContractDraftSend|  --你好啊，hangfire |url: |action: |Hr.Contract.BackgroundTask.ContractDraftSend.Execute| body: 
+2022-01-11 17:30:48.4498|0|ERROR|Hangfire.Processing.BackgroundExecution|Execution ExpirationManager is in the Failed state now due to an exception, execution will be retried no more than in 00:00:09 Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'FOREIGN KEY constraint failed'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader)
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command)
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Hangfire.SQLite.Core.ExpirationManager.<>c__DisplayClass9_0.<Execute>b__0(SqliteConnection connection)
+   at Hangfire.SQLite.SQLiteStorage.<>c__DisplayClass16_0.<UseConnection>b__0(SqliteConnection connection)
+   at Hangfire.SQLite.SQLiteStorage.UseConnection[T](Func`2 func, Boolean isWriteLock)
+   at Hangfire.SQLite.SQLiteStorage.UseConnection(Action`1 action, Boolean isWriteLock)
+   at Hangfire.SQLite.Core.ExpirationManager.Execute(CancellationToken cancellationToken)
+   at Hangfire.Server.ServerProcessDispatcherBuilder.ExecuteComponent(Guid executionId, Object state)
+   at Hangfire.Processing.BackgroundExecution.Run(Action`2 callback, Object state)|url: |action: |Hangfire.AspNetCore.AspNetCoreLog.Log| body: 
+2022-01-11 17:30:48.4695|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ExpirationManager:e3eab1c5 caught an exception and will be retried in 00:00:09 Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'FOREIGN KEY constraint failed'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader)
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command)
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Hangfire.SQLite.Core.ExpirationManager.<>c__DisplayClass9_0.<Execute>b__0(SqliteConnection connection)
+   at Hangfire.SQLite.SQLiteStorage.<>c__DisplayClass16_0.<UseConnection>b__0(SqliteConnection connection)
+   at Hangfire.SQLite.SQLiteStorage.UseConnection[T](Func`2 func, Boolean isWriteLock)
+   at Hangfire.SQLite.SQLiteStorage.UseConnection(Action`1 action, Boolean isWriteLock)
+   at Hangfire.SQLite.Core.ExpirationManager.Execute(CancellationToken cancellationToken)
+   at Hangfire.Server.ServerProcessDispatcherBuilder.ExecuteComponent(Guid executionId, Object state)
+   at Hangfire.Processing.BackgroundExecution.Run(Action`2 callback, Object state)|url: |action: |Hangfire.AspNetCore.AspNetCoreLog.Log| body: 
+2022-01-11 17:30:48.4862|0|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ExpirationManager:e3eab1c5 will be retried in 00:00:09... |url: |action: |Hangfire.AspNetCore.AspNetCoreLog.Log| body: 

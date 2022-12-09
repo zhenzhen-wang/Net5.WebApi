@@ -1,0 +1,2 @@
+2022-09-22 15:12:55.5338||ERROR|Mitac.Core.Filters.ExceptionFilter|Value cannot be null. (Parameter 'value') 
+2022-09-22 15:19:27.0310||ERROR|Mitac.Core.Filters.ExceptionFilter|Object reference not set to an instance of an object. 

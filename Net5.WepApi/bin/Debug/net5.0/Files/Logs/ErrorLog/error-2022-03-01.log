@@ -1,0 +1,20 @@
+2022-03-01 09:29:59.3916|6|FATAL|Microsoft.AspNetCore.Hosting.Diagnostics|Application startup exception System.ArgumentException: CRON expression is invalid. Please see the inner exception for details. (Parameter 'cronExpression')
+ ---> Cronos.CronFormatException: Hours: Value must be a number between 0 and 23 (all inclusive).
+   at Cronos.CronExpression.ThrowFormatException(CronField field, String format, Object[] args)
+   at Cronos.CronExpression.ParseField(CronField field, Char*& pointer, CronExpressionFlag& flags)
+   at Hangfire.RecurringJobEntity.ParseCronExpression(String cronExpression)
+   at Hangfire.RecurringJobManager.ValidateCronExpression(String cronExpression)
+   --- End of inner exception stack trace ---
+   at Hangfire.RecurringJobManager.ValidateCronExpression(String cronExpression)
+   at Hangfire.RecurringJobManager.AddOrUpdate(String recurringJobId, Job job, String cronExpression, RecurringJobOptions options)
+   at Hangfire.RecurringJobManagerExtensions.AddOrUpdate(IRecurringJobManager manager, String recurringJobId, Job job, String cronExpression, TimeZoneInfo timeZone, String queue)
+   at Hangfire.RecurringJob.AddOrUpdate[T](String recurringJobId, Expression`1 methodCall, String cronExpression, TimeZoneInfo timeZone, String queue)
+   at Mitac.Net5.WebApi.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env) in D:\WorkFolder\bonnie.wang\MKL-NewProj\Mitac.Net5.WepApi\Mitac.Net5.WepApi\Startup.cs:line 158
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass15_0.<UseStartup>b__1(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)

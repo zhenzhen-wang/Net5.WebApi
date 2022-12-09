@@ -1,0 +1,10 @@
+﻿[*.cs]
+
+# CS0006: 找不到中繼資料檔 'C:\Users\bonnie.wang\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.9\analyzers\dotnet\cs\Microsoft.EntityFrameworkCore.Analyzers.dll'
+dotnet_diagnostic.CS0006.severity = warning
+
+# CA1416: 驗證平台相容性
+dotnet_diagnostic.CA1416.severity = silent
+
+# Default severity for analyzer diagnostics with category 'Globalization'
+dotnet_analyzer_diagnostic.category-Globalization.severity = none

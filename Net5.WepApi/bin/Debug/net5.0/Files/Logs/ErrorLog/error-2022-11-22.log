@@ -1,0 +1,10 @@
+2022-11-22 14:09:48.7259||ERROR|Hr.Resume.Service.DbRepository|321181199012195977：插入主管评价失败，异常原因：System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at Hr.Resume.Service.DbRepository.QueryNameByEmpno(String empNo) in D:\WorkFolder\bonnie.wang\MKL_NewProj\Mobile\Mitac.Net5.WepApi\Mitac.Project\Hr.Resume\Service\DbRepository.cs:line 755
+   at Hr.Resume.Service.DbRepository.InsertComment(ManagerParams param) in D:\WorkFolder\bonnie.wang\MKL_NewProj\Mobile\Mitac.Net5.WepApi\Mitac.Project\Hr.Resume\Service\DbRepository.cs:line 616 
+2022-11-22 14:23:16.8756||ERROR|Hr.Resume.Service.DbRepository|321181199012195977：插入主管评价失败，异常原因：System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at Hr.Resume.Service.DbRepository.QueryNameByEmpno(String empNo) in D:\WorkFolder\bonnie.wang\MKL_NewProj\Mobile\Mitac.Net5.WepApi\Mitac.Project\Hr.Resume\Service\DbRepository.cs:line 755
+   at Hr.Resume.Service.DbRepository.InsertComment(ManagerParams param) in D:\WorkFolder\bonnie.wang\MKL_NewProj\Mobile\Mitac.Net5.WepApi\Mitac.Project\Hr.Resume\Service\DbRepository.cs:line 616 
